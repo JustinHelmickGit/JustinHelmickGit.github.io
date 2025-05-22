@@ -1,13 +1,9 @@
-:root {
-    --surface: #373638 !important;
-    --background: #373638 !important;
-}
 body {
     background-color: var(--background) !important;
 }
 
 body, .background, .surface, .responsive {
-    background-color: #373638 !important;
+    background-color: #201f22 !important;
 }
 
 nav.left.drawer.l{
@@ -44,6 +40,12 @@ nav.left.drawer.l header nav img.circle {
 @media screen and (max-width: 600px) {
   .smallVisible {
     display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.bottom.s {
+    background-color: #141316 !important;
   }
 }
 
