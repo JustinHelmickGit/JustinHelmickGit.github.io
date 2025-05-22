@@ -23,18 +23,15 @@ nav.left.m a {
 }
 nav.left.drawer.l a {
     display: flex;
-    flex-direction: row;         /* Change from column to row */
-    align-items: center;         /* Vertically center icon and text */
-    justify-content: flex-start; /* Align items to the left */
-    min-height: 48px;
-    gap: 0.5rem;                 /* Space between icon and text */
-    text-align: left;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 64px;
+    gap: 0.25rem;
+    text-align: center;
 }
 nav.left.drawer.l a i {
-    margin-bottom: 0;            /* Remove bottom margin */
-    margin-right: 0.5rem;        /* Space between icon and text */
+    margin-bottom: 0.25rem;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
