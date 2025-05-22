@@ -10,85 +10,85 @@ body, .background, .surface, .responsive {
     background-color: #373638 !important;
 }
 
-nav.left.drawer.l{
-    width: 60px !important; 
+nav.left.drawer.l {
+    width: 60px !important;
     min-width: 200px !important;
     max-width: 400px !important;
 }
 nav.left.drawer.l a,
 nav.left.m a {
-    justify-content: center;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    justify-content: center !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
 }
 nav.left.drawer.l a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 64px;
-    gap: 0.25rem;
-    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 64px !important;
+    gap: 0.25rem !important;
+    text-align: center !important;
 }
 nav.left.drawer.l a i {
-    margin-bottom: 0.25rem;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 0.25rem !important;
+    font-size: 1.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 nav.left.drawer.l a div {
-    font-size: 0.95rem;
-    margin: 0;
-    padding: 0;
+    font-size: 0.95rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 nav.left.drawer.l header nav,
 nav.left.drawer.l header,
 nav.left.drawer.l {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
 }
 
 nav.left.drawer.l header nav img.circle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;  
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 1rem !important;
 }
 
 /* Only show .smallVisible when screen is 600px or less */
 .smallVisible {
-  display: none;
+    display: none !important;
 }
 
 @media screen and (max-width: 600px) {
-  .smallVisible {
-    display: block;
-  }
-  nav.bottom.s {
-    background-color: #141316 !important;
-    --surface-container: #141316 !important;
-  }
+    .smallVisible {
+        display: block !important;
+    }
+    nav.bottom.s {
+        background-color: #141316 !important;
+        --surface-container: #141316 !important;
+    }
 }
 
 .toast {
-    position: fixed;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--surface-variant, #333);
-    color: var(--on-surface, #fff);
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s;
-    z-index: 9999;
+    position: fixed !important;
+    bottom: 2rem !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    background: var(--surface-variant, #333) !important;
+    color: var(--on-surface, #fff) !important;
+    padding: 1rem 2rem !important;
+    border-radius: 2rem !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: opacity 0.3s !important;
+    z-index: 9999 !important;
 }
 .toast.show {
-    opacity: 1;
-    pointer-events: auto;
+    opacity: 1 !important;
+    pointer-events: auto !important;
 }
