@@ -21,6 +21,30 @@ nav.left.m a {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+nav.left.drawer.l a {
+    display: flex;
+    flex-direction: row;         /* Change from column to row */
+    align-items: center;         /* Vertically center icon and text */
+    justify-content: flex-start; /* Align items to the left */
+    min-height: 48px;
+    gap: 0.5rem;                 /* Space between icon and text */
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+nav.left.drawer.l a i {
+    margin-bottom: 0;            /* Remove bottom margin */
+    margin-right: 0.5rem;        /* Space between icon and text */
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav.left.drawer.l a div {
+    font-size: 0.95rem;
+    margin: 0;
+    padding: 0;
+}
 
 nav.left.drawer.l header nav,
 nav.left.drawer.l header,
