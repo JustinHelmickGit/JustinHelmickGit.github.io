@@ -40,7 +40,7 @@ nav.left.drawer.l header nav img.circle {
 @media screen and (max-width: 600px) {
   .smallVisible {
     display: block;
-    background-color: #141316 !important;
+    /*background-color: #141316 !important;*/
     --surface-container: #141316 !important;
   }
 }
