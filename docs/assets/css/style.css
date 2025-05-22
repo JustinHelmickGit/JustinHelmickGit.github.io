@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --surface: #373638 !important;
     --background: #373638 !important;
 }
@@ -37,7 +37,7 @@ nav.left.drawer.l header nav img.circle {
     margin-top: 1rem;  
 }
 
-/* Only show .smallVisible when screen is 600px or less */
+ Only show .smallVisible when screen is 600px or less 
 .smallVisible {
   display: none;
 }
@@ -67,3 +67,4 @@ nav.left.drawer.l header nav img.circle {
     opacity: 1;
     pointer-events: auto;
 }
+*/
