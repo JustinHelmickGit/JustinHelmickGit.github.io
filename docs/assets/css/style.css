@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --surface: #373638 !important;
     --background: #373638 !important;
 }
@@ -19,15 +19,18 @@ nav.left.m a {
 }
 nav.left.drawer.l a {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 64px;
-    gap: 0.25rem;
-    text-align: center;
+    flex-direction: row;         
+    align-items: center;         
+    justify-content: flex-start; 
+    min-height: 48px;
+    gap: 0.5rem;                 
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 nav.left.drawer.l a i {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0;            
+    margin-right: 0.5rem;        
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -54,7 +57,7 @@ nav.left.drawer.l header nav img.circle {
     margin-top: 1rem !important;
 }
 
-/* Only show .smallVisible when screen is 600px or less */
+
 .smallVisible {
     display: none !important;
 }
@@ -69,14 +72,14 @@ nav.left.drawer.l header nav img.circle {
     }
 }
 
-/* Hide .left.drawer.l on medium and small screens */
+
 @media screen and (max-width: 1024px) {
     nav.left.drawer.l {
         display: none !important;
     }
 }
 
-/* Hide .left.m on large screens */
+
 @media screen and (min-width: 1025px) {
     nav.left.m {
         display: none !important;
@@ -101,4 +104,4 @@ nav.left.drawer.l header nav img.circle {
 .toast.show {
     opacity: 1 !important;
     pointer-events: auto !important;
-}
+} */
