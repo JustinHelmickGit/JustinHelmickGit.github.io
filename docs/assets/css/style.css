@@ -10,11 +10,7 @@ body, .background, .surface, .responsive {
     background-color: #373638 !important;
 }
 
-nav.left.drawer.l {
-    width: 60px !important;
-    min-width: 200px !important;
-    max-width: 400px !important;
-}
+
 nav.left.drawer.l a,
 nav.left.m a {
     justify-content: center !important;
@@ -22,25 +18,28 @@ nav.left.m a {
     padding-right: 0.5rem !important;
 }
 nav.left.drawer.l a {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    min-height: 64px !important;
-    gap: 0.25rem !important;
-    text-align: center !important;
+    display: flex;
+    flex-direction: row;         /* Change from column to row */
+    align-items: center;         /* Vertically center icon and text */
+    justify-content: flex-start; /* Align items to the left */
+    min-height: 48px;
+    gap: 0.5rem;                 /* Space between icon and text */
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 nav.left.drawer.l a i {
-    margin-bottom: 0.25rem !important;
-    font-size: 1.5rem !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    margin-bottom: 0;            /* Remove bottom margin */
+    margin-right: 0.5rem;        /* Space between icon and text */
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 nav.left.drawer.l a div {
-    font-size: 0.95rem !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    font-size: 0.95rem;
+    margin: 0;
+    padding: 0;
 }
 
 nav.left.drawer.l header nav,
@@ -70,6 +69,20 @@ nav.left.drawer.l header nav img.circle {
     nav.bottom.s {
         background-color: #141316 !important;
         --surface-container: #141316 !important;
+    }
+}
+
+/* Hide .left.drawer.l on medium and small screens */
+@media screen and (max-width: 1024px) {
+    nav.left.drawer.l {
+        display: none !important;
+    }
+}
+
+/* Hide .left.m on large screens */
+@media screen and (min-width: 1025px) {
+    nav.left.m {
+        display: none !important;
     }
 }
 
